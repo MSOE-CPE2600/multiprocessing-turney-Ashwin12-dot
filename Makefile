@@ -1,7 +1,7 @@
 CC=gcc
 CFLAGS=-c -Wall -g
 LDFLAGS=-ljpeg
-SOURCES= mandel.c jpegrw.c 
+SOURCES= mandel.c jpegrw.c
 OBJECTS=$(SOURCES:.c=.o)
 EXECUTABLE=mandel
 
@@ -11,7 +11,7 @@ all: $(SOURCES) $(EXECUTABLE)
 -include $(OBJECTS:.o=.d)
 
 $(EXECUTABLE): $(OBJECTS)
-	$(CC) $(OBJECTS) $(LDFLAGS) -o $@
+	$(CC) $(OBJECTS) $(LDFLAGS) -lm -o $@
 
 .c.o: 
 	$(CC) $(CFLAGS) $< -o $@
