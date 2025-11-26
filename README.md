@@ -9,7 +9,8 @@ To compile this file, Dr. Turney provided a very convenient, neat Makefile.
 
 
 ## Discussion of Runtime Results
-![Runtime vs Number of Processes](lab11.png)
+<img width="182" height="89" alt="image" src="https://github.com/user-attachments/assets/c04856c7-78a7-49db-9471-cd31f9586375" />
+
 
 
 This graph provided above clearly illustrates how the more processes we have -> the quicker our program actually is. For example, 1 process took roughly 3 minutes and 51 seconds, likewise 10 processes show a much faster result with a compile time of 48 seconds, which is much more efficient however more intensive on our computer. 
