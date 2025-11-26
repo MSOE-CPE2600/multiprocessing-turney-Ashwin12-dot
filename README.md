@@ -8,7 +8,9 @@ Each of these children, which is user declared by the input-p, or uses the defau
 ## Lab 12 Modification
 This lab's premise was to make 50 JPG images using threading. I decided to use a struct to make this all pan out nicely.
 Each thread use the structs argument to have its associated row and column to finish.
-
+I then wait for all the threads to finish doing what they are doing then join them with pthread_join(), to compile cleanly without any deadlocks or such.
+This program can take up to 20 threads! 
+Select a thread count 1 through 20, and use -t # to set and compile your count. This can also be use alongside -p.
 To compile this file, Dr. Turney provided a very convenient, neat Makefile. 
 
 
