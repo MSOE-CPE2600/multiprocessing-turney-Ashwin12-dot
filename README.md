@@ -1,4 +1,4 @@
-# System Programming Lab 11 Multiprocessing
+# System Programming Lab 12 Multithreading
 
 
 ## Brief overview of the Multiprocessing lab 
